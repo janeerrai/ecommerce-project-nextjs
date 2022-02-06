@@ -1,0 +1,28 @@
+@import '../../../styles/base.scss';
+.button__root {
+    // padding: 10px 26px;
+    text-align: center;
+    max-height: 64px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button__primary {
+    background-color: $button_primary;
+    color: $text_secondary1;
+}
+
+.button__secondary {
+    background-color: $button_secondary;
+    color: $button_tertiary;
+    padding: 10px 10px;
+    border-radius: 4%;
+}
+
+.disabled {
+    filter: grayscale(1);
+}
+
+.loading {
+    cursor: not-allowed;
+}

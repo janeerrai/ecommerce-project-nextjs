@@ -1,0 +1,26 @@
+.submenu__root {
+    display: block;
+    z-index: 1000;
+    .arrow__icon {
+        display: none;
+    }
+    .submenu__submenu {
+        display: none;
+    }
+    nav ul li:hover .arrow__icon {
+        display: inline-block;
+        position: absolute;
+        right: 2px;
+        color: white;
+    }
+    nav ul li:hover .submenu__submenu {
+        display: block !important;
+        position: absolute;
+        top: -1px;
+        right: -100%;
+        border: 1px solid #ddd;
+        background: white;
+        width: 230px;
+        height: 280px;
+    }
+}

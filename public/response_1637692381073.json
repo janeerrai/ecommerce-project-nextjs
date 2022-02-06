@@ -1,0 +1,244 @@
+{
+  "message": "The token could not be parsed from the request",
+  "exception": "Symfony\\Component\\HttpKernel\\Exception\\HttpException",
+  "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php",
+  "line": 1122,
+  "trace": [
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+      "line": 44,
+      "function": "abort",
+      "class": "Illuminate\\Foundation\\Application",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/app/Http/Middleware/JwtMiddleware.php",
+      "line": 42,
+      "function": "abort"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 167,
+      "function": "handle",
+      "class": "App\\Http\\Middleware\\JwtMiddleware",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php",
+      "line": 50,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 167,
+      "function": "handle",
+      "class": "Illuminate\\Routing\\Middleware\\SubstituteBindings",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php",
+      "line": 127,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php",
+      "line": 103,
+      "function": "handleRequest",
+      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php",
+      "line": 55,
+      "function": "handleRequestUsingNamedLimiter",
+      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 167,
+      "function": "handle",
+      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 103,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+      "line": 697,
+      "function": "then",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+      "line": 672,
+      "function": "runRouteWithinStack",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+      "line": 636,
+      "function": "runRoute",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+      "line": 625,
+      "function": "dispatchToRoute",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+      "line": 167,
+      "function": "dispatch",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 128,
+      "function": "Illuminate\\Foundation\\Http\\{closure}",
+      "class": "Illuminate\\Foundation\\Http\\Kernel",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php",
+      "line": 21,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php",
+      "line": 31,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 167,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php",
+      "line": 21,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php",
+      "line": 40,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 167,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php",
+      "line": 27,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 167,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php",
+      "line": 86,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 167,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/fruitcake/laravel-cors/src/HandleCors.php",
+      "line": 52,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 167,
+      "function": "handle",
+      "class": "Fruitcake\\Cors\\HandleCors",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php",
+      "line": 39,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 167,
+      "function": "handle",
+      "class": "Illuminate\\Http\\Middleware\\TrustProxies",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 103,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+      "line": 142,
+      "function": "then",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+      "line": 111,
+      "function": "sendRequestThroughRouter",
+      "class": "Illuminate\\Foundation\\Http\\Kernel",
+      "type": "->"
+    },
+    {
+      "file": "/home/ninjademos/oms.ninjademos.com/admin/index.php",
+      "line": 52,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Kernel",
+      "type": "->"
+    }
+  ]
+}

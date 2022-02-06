@@ -1,0 +1,43 @@
+.footer__root {
+    display: flex;
+    background: #ddd;
+    h4 {
+        margin-left: 41px;
+        margin-bottom: -10px;
+    }
+    .item1 {
+        padding: 0.1rem 2rem;
+        width: 25%;
+        ul li {
+            list-style: none;
+            font-size: 4rem;
+        }
+    }
+    .item2 {
+        padding: 0.1rem 2rem;
+        width: 25%;
+        ul li {
+            list-style: none;
+            padding: 0.2rem 0;
+            font-family: 'Popins', sans-serif;
+        }
+    }
+    .item3 {
+        padding: 0.1rem 2rem;
+        width: 25%;
+        ul li {
+            list-style: none;
+            padding: 0.2rem 0;
+            font-family: 'Popins', sans-serif;
+        }
+    }
+    .item4 {
+        padding: 0.1rem 2rem;
+        width: 25%;
+        ul li {
+            list-style: none;
+            padding: 0.2rem 0;
+            font-family: 'Popins', sans-serif;
+        }
+    }
+}

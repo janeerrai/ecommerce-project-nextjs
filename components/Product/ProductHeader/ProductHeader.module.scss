@@ -1,0 +1,30 @@
+@import '../../../styles/base.scss';
+.product__header__root {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.6rem;
+    position: relative;
+    .header__name {
+        padding: 0 0.9rem;
+        border-left: 10px solid $secondary2;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.4rem;
+        font-weight: 600;
+        width: 87%;
+    }
+    // .header__front__tag {}
+    .header__carosel_navigation {
+        text-align: right;
+        padding: 0 0 0 2rem;
+        margin-left: auto;
+        .navigation {
+            background-color: $secondary2;
+            border-radius: 50%;
+            color: $text_secondary1;
+            height: 40px;
+            width: 40px;
+            padding: 3px 5px 0;
+            margin-right: 5px;
+        }
+    }
+}

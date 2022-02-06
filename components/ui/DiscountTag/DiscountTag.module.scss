@@ -1,0 +1,15 @@
+@import '../../../styles/base.scss';
+.discount__tag__root {
+    background-color: $secondary2;
+    border-radius: 50%;
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    text-align: center;
+    padding: 16px 0 8px 0;
+    z-index: 1000;
+    .text_color {
+        color: $text_secondary1;
+        font-family: -webkit-pictograph;
+    }
+}

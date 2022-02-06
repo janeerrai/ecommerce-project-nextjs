@@ -1,0 +1,14 @@
+@import '../../../styles/base.scss';
+.header__top__container {
+    display: flex;
+    padding: 8px 235px;
+    justify-content: flex-end;
+    background-color: $bg_color1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    .flex__item {
+        width: auto;
+        margin: 0 10px;
+    }
+}
